@@ -1,0 +1,145 @@
+/* Import pywal colors */
+
+@import url("file:/home/lagonia/.cache/wal/colors-waybar.css");
+
+
+/* Setting to change height without min. */
+
+* {	
+	font-size: 2px;
+	min-height: 0;
+}
+
+
+/* General Bar */
+
+/* Colores
+	6 borde sin uso
+	12 p10k
+	0 interior terminal
+ 0,5,8
+ */
+
+#waybar {
+	background: linear-gradient(to right,
+		#ccffff 0%,
+		#66ccff 0.2%,
+		@color0 3%,
+		@color0 97%,
+		#009933 99.8%,
+		#33cc33 100%
+	);
+	border-bottom: 5px solid @color6;  
+}
+
+/* Workspaces */
+
+#workspaces button {
+	margin: 10px;
+	margin-top: 0px;
+}
+
+#workspaces button.empty {
+  	background-image: url("/home/lagonia/.config/themesManager/themes/adventureTime/graphicsResources/burbuja.png");
+  	background-size: 30px;
+  	background-repeat: no-repeat;
+  	background-position: center;
+	margin-top: 5px;
+}
+
+#workspaces button:not(.active):not(.empty) {
+	background-image: url("/home/lagonia/.config/themesManager/themes/adventureTime/graphicsResources/burbujaexplotada.png");
+	background-size: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 5px;
+}
+
+
+#workspaces button.active {
+	background-image: url("/home/lagonia/.config/themesManager/themes/adventureTime/graphicsResources/pestañactivajake.png");
+	background-size: 35px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 5px;
+}
+
+
+/* Show IP */
+
+#custom-ip {
+	font-size: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 10px;
+	color: white;
+	font-family: ComicMono;
+	letter-spacing: 7px;
+}
+
+#custom-victim {
+	font-size: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 10px;
+	color: white;
+	font-family: ComicMono;
+	letter-spacing: 7px;
+}
+
+#custom-vpn {
+	font-size: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 10px;
+	color: white;
+	font-family: ComicMono;
+	letter-spacing: 7px;
+
+}
+
+
+/* Images */
+
+#image.entradarey {
+	margin-top: 0px;
+	margin-left: 2px;
+
+}
+
+#image.entradafin {
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+#image.sustofin {
+	margin-top: 5px;
+	margin-left: 100px;
+}
+
+#image.caracolbueno {
+	margin-top: 10px;
+	
+}
+
+#image.caracolbuenoinv {
+	margin-left: 100px;
+	margin-top: 10px;
+}
+
+#image.caracolmalo {
+	margin-top: 12px;
+	margin-right: 33px;
+}
+
+#image.caracolmaloinv {
+	margin-top: 12px;
+	margin-left: 0px;
+}
+
+#image.chiclechula {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+

@@ -1,0 +1,80 @@
+{
+	
+"hyprland/workspaces" : {
+	"activate-only": false,
+	"format": "{icon}",
+	"format-icons": {
+		"default": "",
+        	"active": "",
+        	"urgent": ""
+    		},
+    	"persistent-workspaces": {
+        	"*": 5}
+},
+
+"custom/ip" : {
+	"exec": "/home/lagonia/Scripts/showIp.sh",
+	"restart-interval": 1
+},
+
+"custom/victim" : {
+	"exec": "/home/lagonia/Scripts/victimIp.sh",
+	"restart-interval": 1
+},
+
+"custom/vpn" : {
+	"exec": "/home/lagonia/Scripts/pruebavpn.sh",
+	"restart-interval": 30
+},
+
+"image#entradafin" : {
+	"path": "/home/lagonia/.config/themesManager/themes/adventureTime/graphicsResources/buenafinentrando.png",
+	"tooltip": true,
+	"size": 50
+},
+
+"image#entradarey" : {
+	"path": "/home/lagonia/.config/themesManager/themes/adventureTime/graphicsResources/reyhieloypinguinos.png",
+	"tooltip": true,
+	"size": 70
+},
+
+"image#sustofin" : {
+	"path": "/home/lagonia/.config/themesManager/themes/adventureTime/graphicsResources/finyjakegritando.png",
+	"tooltip": true,
+	"size": 50
+},
+
+"image#caracolbueno" : {
+	"path": "/home/lagonia/.config/themesManager/themes/adventureTime/graphicsResources/caracolbueno.png",
+	"tooltip": true,
+	"size": 40
+
+},
+
+"image#caracolbuenoinv" : {
+	"path": "/home/lagonia/.config/themesManager/themes/adventureTime/graphicsResources/caracolbuenoinv.png",
+	"tooltip": true,
+	"size":40
+},
+
+"image#caracolmalo" : {
+	"path": "/home/lagonia/.config/themesManager/themes/adventureTime/graphicsResources/caracol.png",
+	"tooltip": true,
+	"size": 40
+},
+
+"image#caracolmaloinv" : {
+	"path": "/home/lagonia/.config/themesManager/themes/adventureTime/graphicsResources/caracolinv.png",
+	"tooltip": true,
+	"size": 40
+},
+
+"image#chiclechula" : {
+	"path": "/home/lagonia/.config/themesManager/themes/adventureTime/graphicsResources/chiclechula.png",
+	"tooltip": true,
+	"size": 42
+}
+
+
+}

@@ -1,0 +1,44 @@
+{
+	// General Settings
+	
+	"layer": "bottom",
+	"position": "top",
+	"height": 50,
+	"margin-top": 0,
+	"margin-bottom": 0,
+	"margin-left": 0,
+	"margin-right": 0,
+	"spacing": 10,
+	
+	// Modules Include
+	
+	"include": ["~/.config/waybar/modules.json"],
+
+	// Modules Organization
+
+	"modules-center": [
+		"hyprland/workspaces"
+	],
+
+	"modules-left": [
+		"image#entradarey",
+		"image#sustofin",
+		"image#caracolbuenoinv",
+		"custom/ip",
+		"image#caracolbueno"
+
+
+	],
+
+	"modules-right": [
+		"image#caracolmaloinv",
+		"custom/vpn",
+		"image#chiclechula",
+		"custom/victim",
+		"image#caracolmalo",
+		"image#entradafin"
+	]
+}
+
+
+
